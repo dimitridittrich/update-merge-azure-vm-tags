@@ -11,9 +11,9 @@ To use the script you need:<br>
 pip install azure-identity azure-mgmt-resource
 - Clone the repository to your machine.
 - Open in VSCode and export the environment variables "AZURE_CLIENT_ID", "AZURE_CLIENT_SECRET" and "AZURE_TENANT_ID" referring to the Service Principal (with the appropriate accesses) in your VSCODE terminal, as shown in the example below:<br>
-export AZURE_CLIENT_ID="xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-export AZURE_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxx"
-export AZURE_TENANT_ID="xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+export AZURE_CLIENT_ID="xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"<br>
+export AZURE_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxx"<br>
+export AZURE_TENANT_ID="xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"<br>
 - Edit and save the "update_vm_tags.csv" file with the information of the VMs you need, as you can see in the example of this repository.
 - Run the python file as shown below:
 python3 update_vm_tags.py
