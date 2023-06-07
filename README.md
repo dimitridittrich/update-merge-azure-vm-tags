@@ -1,10 +1,10 @@
 # update-merge-azure-vm-tags
 
-This script is designed to ease the process of changing the business.start, business.stop, and business.environment tags on Azure Virtual Machines.
-This was a specific need because these tags were responsible for defining the times when the VMs would turn on and/or turn off automatically (this process is done by another automation that runs in a script in a Rundeck job).
-Important: This script does not change the tags that already exist in the VMs, it only edits and/or adds the three tags already mentioned.
+This script is designed to ease the process of changing the business.start, business.stop, and business.environment tags on Azure Virtual Machines.<br>
+This was a specific need because these tags were responsible for defining the times when the VMs would turn on and/or turn off automatically (this process is done by another automation that runs in a script in a Rundeck job).<br>
+Important: This script does not change the tags that already exist in the VMs, it only edits and/or adds the three tags already mentioned.<br>
 
-To use the script you need:
+To use the script you need:<br>
 
 - Python version 3.11.2 or higher (earlier versions have not been tested)
 - Install azure-mgmt-resource, eg:
