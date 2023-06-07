@@ -7,10 +7,10 @@ Important: This script does not change the tags that already exist in the VMs, i
 To use the script you need:<br>
 
 - Python version 3.11.2 or higher (earlier versions have not been tested)
-- Install azure-mgmt-resource, eg:
+- Install azure-mgmt-resource, example:<br>
 pip install azure-identity azure-mgmt-resource
 - Clone the repository to your machine.
-- Open in VSCode and export the environment variables "AZURE_CLIENT_ID", "AZURE_CLIENT_SECRET" and "AZURE_TENANT_ID" referring to the Service Principal (with the appropriate accesses) in your VSCODE terminal, as shown in the example below:
+- Open in VSCode and export the environment variables "AZURE_CLIENT_ID", "AZURE_CLIENT_SECRET" and "AZURE_TENANT_ID" referring to the Service Principal (with the appropriate accesses) in your VSCODE terminal, as shown in the example below:<br>
 export AZURE_CLIENT_ID="xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 export AZURE_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxx"
 export AZURE_TENANT_ID="xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
