@@ -1,0 +1,5 @@
+subscription_id,resource_group,vm,business.environment,business.start,business.stop
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,resource_group_name,vm_name,dev,07,18:00
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,resource_group_name,vm_name,dev,08,17:00
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,resource_group_name,vm_name,dev,--,19:00
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,resource_group_name,vm_name,dev,--,--
