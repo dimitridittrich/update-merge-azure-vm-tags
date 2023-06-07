@@ -15,6 +15,6 @@ export AZURE_CLIENT_ID="xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"<br>
 export AZURE_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxx"<br>
 export AZURE_TENANT_ID="xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"<br>
 - Edit and save the "update_vm_tags.csv" file with the information of the VMs you need, as you can see in the example of this repository.
-- Run the python file as shown below:
+- Run the python file as shown below:<br>
 python3 update_vm_tags.py
 - Follow the prints in Terminal to check if the changes were made correctly.
